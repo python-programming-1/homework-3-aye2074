@@ -1,5 +1,9 @@
-print('input any number')
-num = int(input())
+try:
+    print('input any number')
+    num = int(input())
+
+except ValueError:
+    print("You must input integer value!")
 
 
 def collatz(num):
